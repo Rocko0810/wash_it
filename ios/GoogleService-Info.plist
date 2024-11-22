@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>425045673446-mvsmqjd97e70ve84j9pruk0cfi128em3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.425045673446-mvsmqjd97e70ve84j9pruk0cfi128em3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCse4WmiNkHhoKI9DuMgNzyOQoquC3bpTE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>425045673446</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.washIt</string>
+	<key>PROJECT_ID</key>
+	<string>washit-25714</string>
+	<key>STORAGE_BUCKET</key>
+	<string>washit-25714.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:425045673446:ios:5d215f7ce6bd518231c227</string>
+	pod 'GoogleSignIn'
+
+</dict>
+</plist>

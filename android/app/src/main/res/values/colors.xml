@@ -1,0 +1,11 @@
+<resources>
+    <!-- Define your custom colors here -->
+    <color name="status_bar_color_dark">#000000</color> <!-- Black color -->
+    <color name="status_bar_color">#FFFFFF</color> <!-- White color -->
+
+    <!-- Add the missing colors -->
+    <color name="launch_status_bar_color">#FFFFFF</color> <!-- or whatever color you want -->
+    <color name="launch_status_bar_color_dark">#000000</color> <!-- or whatever color you want -->
+    <color name="black">#000000</color>
+
+</resources>

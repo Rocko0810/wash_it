@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "425045673446",
+    "firebase_url": "https://washit-25714-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "washit-25714",
+    "storage_bucket": "washit-25714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425045673446:android:ac63703759daddab31c227",
+        "android_client_info": {
+          "package_name": "com.Wash.wash_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425045673446-fdq79aavish1tm888141l97qhsjqqu8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCZfsVSHxQEiemGrp03_Mq9J5zKuZT7SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425045673446-fdq79aavish1tm888141l97qhsjqqu8h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "425045673446-mvsmqjd97e70ve84j9pruk0cfi128em3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.washIt"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425045673446:android:29e241e177a4699131c227",
+        "android_client_info": {
+          "package_name": "com.wash.washit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425045673446-56ge3mc33mtu9hq6qqfbfpsj3jj21rgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wash.washit",
+            "certificate_hash": "6e2b500a8d5b443a7f99c09ff251e70b2b05e872"
+          }
+        },
+        {
+          "client_id": "425045673446-fdq79aavish1tm888141l97qhsjqqu8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCZfsVSHxQEiemGrp03_Mq9J5zKuZT7SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425045673446-fdq79aavish1tm888141l97qhsjqqu8h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "425045673446-mvsmqjd97e70ve84j9pruk0cfi128em3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.washIt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

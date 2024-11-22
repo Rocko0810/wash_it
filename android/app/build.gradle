@@ -1,0 +1,69 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin" // Flutter Gradle Plugin must come after Android and Kotlin plugins
+    id 'com.google.gms.google-services'    // FlutterFire Configuration for Firebase
+
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty("flutter.versionCode")
+if (flutterVersionCode == null) {
+    flutterVersionCode = "1"
+}
+
+def flutterVersionName = localProperties.getProperty("flutter.versionName")
+if (flutterVersionName == null) {
+    flutterVersionName = "1.0"
+}
+
+android {
+    namespace = "com.wash.washit"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.wash.washit"
+        minSdkVersion 23 // Setting this explicitly based on firebase_auth requirements
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutterVersionCode.toInteger()
+        versionName = flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+            // Add any release-specific configuration here
+        }
+    }
+}
+
+dependencies {
+    // Firebase BOM (Bill of Materials) to manage Firebase versions
+    implementation platform('com.google.firebase:firebase-bom:31.0.0')
+
+    // Firebase Analytics and App Check
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-appcheck-playintegrity'
+    implementation 'com.google.firebase:firebase-auth:,'
+    implementation 'com.google.android.gms:play-services-auth:20.0.1'
+
+
+    // Add any other dependencies here as needed
+}
+
+flutter {
+    source = "../.." // Points to your Flutter project root
+}
